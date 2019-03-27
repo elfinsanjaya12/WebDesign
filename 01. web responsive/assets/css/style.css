@@ -1,0 +1,151 @@
+body {
+  font-family: Lato;
+  color: #606060;
+  font-size: 14px;
+}
+.wrap-container {
+  overflow: hidden;
+}
+
+.no-margin {
+  margin: 0px;
+}
+.row-padding {
+  padding: 100px 0px;
+}
+
+.home-weedid {
+  margin-top: 150px;
+}
+
+.home-weedid h1 {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.home-weedid h1 {
+  font-weight: 300;
+  margin-top: 20px;
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+
+.btn {
+  background: #3a95e4;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 7px 19px;
+}
+
+.btn:hover {
+  background: 45a6f9;
+  color: white;
+}
+
+.showcase {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.showcase img {
+  width: 85%;
+}
+
+h5.quote {
+  font-size: 23px;
+  line-height: 2;
+  letter-spacing: 2px;
+  color: #4e4e4e;
+}
+
+h6.penulis {
+  font-size: 17px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+.border-line {
+  position: relative;
+}
+.border-line::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 1px;
+  background-color: #d0d0d0;
+  left: -500px;
+  right: -500px;
+  top: 50%;
+}
+.card-floating {
+  border-top: 5px solid #5bacf3;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.card-padding {
+  padding: 30px;
+}
+.card-title {
+  font-weight: 300;
+}
+
+.row-devider {
+  position: relative;
+}
+.row-devider::before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  top: 0%;
+  background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0) 100%);
+  margin-left: -40%;
+  left: 50%;
+}
+
+.head-section {
+  margin-bottom: 60px;
+}
+
+.teknologi img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.teknologi h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.navbar-weeedid {
+  margin-top: 50px;
+}
+
+.nav-li-weeedid li {
+  margin-left: 30px;
+}
+
+/* untuk dibuka dihp */
+@media (max-width: 540px) {
+  .navbar-weeedid {
+    top: 0px;
+    margin-top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    background: #f9f9f9;
+    z-index: 2;
+  }
+  .navbar-light .navar-toggler {
+    font-size: 16px;
+    padding: 5px 7px;
+    cursor: pointer;
+  }
+  .clean-code {
+    margin-top: 30px;
+  }
+  .row-padding {
+    padding: 50px 0px;
+  }
+}
